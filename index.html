@@ -54,14 +54,15 @@
 
         }
     </style>
+	<link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-    <h1>Calculadora Ruidos</h1>
+    <h1>Calculadora de Ruidos</h1>
     <table>
         <tr>
-            <td><label for="fecha">Domicilio :</label></td>
-            <td><textarea name="domicilio" id="domicilio"></textarea></td>
+            <!-- <td><label for="fecha">Domicilio :</label></td> -->
+            <!-- <td><textarea name="domicilio" id="domicilio"></textarea></td> -->
         </tr>
         <tr>
             <td><label>Decibelimetro (nro serie): </label></td>
@@ -225,6 +226,23 @@
 
     <script>
 
+	
+var date = new Date();
+
+var day = date.getDate();
+var month = date.getMonth() + 1;
+var year = date.getFullYear();
+
+if (month < 10) month = "0" + month;
+if (day < 10) day = "0" + day;
+
+var today = year + "-" + month + "-" + day;
+
+document.getElementById('fecha').value = today;
+	
+
+	    
+	    
         let es_domingo;
         let es_diurno;
         let es_feriado;
