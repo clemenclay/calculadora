@@ -274,9 +274,18 @@
 	
 		  </label>
 		    
-		    <button id="btnImprimir" onclick="window.print();return false;" type="button" class="btn btn-lg btn-default" disabled>Imprimir Resultado en PDF</button>
+		    
             </td>
         </tr>
+	    
+	    <tr style="display: none" id="btnImprimir">
+            <td></td>
+		
+		<td>
+		    <button onclick="window.print();return false;" type="button" class="btn btn-lg btn-default" >Imprimir Resultado en PDF</button>
+		</td>
+        </tr>
+	    
     </table>
 
 	
@@ -415,7 +424,7 @@ document.getElementById('fecha').value = today;
         }
 
         function mostrarMed() {
-            const mediciones = ['monm1', 'monm2', 'monm3', 'monlblt', 'moffm1', 'moffm2', 'moffm3', 'mofflblt', 'btncalcr'];
+            const mediciones = ['monm1', 'monm2', 'monm3', 'monlblt', 'moffm1', 'moffm2', 'moffm3', 'mofflblt', 'btncalcr', 'btnImprimir'];
             mediciones.forEach(id => document.getElementById(id).style.display = "");
         }
 
