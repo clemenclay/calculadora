@@ -232,13 +232,32 @@
             <td><input type="text" name="m3off" id="m3off"></td>
         </tr>
         <tr style="display: none" id="btncalcr">
-            <td></td>
+            
            	
 		<td>
 		    <button onclick="calcularRuido()" type="button" class="btn btn-info btn-primary">Calcular Nivel Ruido</button>
 		    
 		</td>
+		
+		<td>
+			
+		</td>
         </tr>
+	    
+	    <tr style="display: none" id="btncalcr">
+            
+           	
+		<td>
+		    
+		    
+		</td>
+		
+		<td>
+			<button onclick="window.print();return false;" type="button" class="btn btn-info btn-default">Imprimir Resultado en PDF</button>
+		</td>
+        </tr>
+	    
+	    
         <tr>
             <td colspan="2">
                 <label id="lbllmlf"></label>
@@ -257,7 +276,7 @@
     </table>
 
 	
-	<button onclick="window.print();return false;" type="button" class="btn btn-info btn-primary">Imprimir Resultado en PDF</button>
+	
 	
     <script>
 
