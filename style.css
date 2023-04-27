@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Open + Sans:400, 700);
 @font-face {
     font-family: CHANEWEI;
-    src: url("fonts/CHANEWEI.eot");
-    src: url("fonts/CHANEWEI.eot?#iefix") format("embedded-opentype"), url("fonts/CHANEWEI.svg#Gotham") format("svg"), url("fonts/CHANEWEI.woff") format("woff"), url("fonts/CHANEWEI.ttf") format("truetype");
+    src: url("CHANEWEI.eot");
+    src: url("CHANEWEI.eot?#iefix") format("embedded-opentype"), url("CHANEWEI.svg#Gotham") format("svg"), url("CHANEWEI.woff") format("woff"), url("CHANEWEI.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
 }
