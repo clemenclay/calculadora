@@ -268,9 +268,13 @@
         </tr>
         <tr>
             <td colspan="2">
-                <label id="calculoruido"><button onclick="window.print();return false;" type="button" class="btn btn-lg btn-default">Imprimir Resultado en PDF</button>
-		   
-		    </label>
+        
+		    
+		    <label id="calculoruido">
+	
+		  </label>
+		    
+		    <button id="btnImprimir" onclick="window.print();return false;" type="button" class="btn btn-lg btn-default" disabled>Imprimir Resultado en PDF</button>
             </td>
         </tr>
     </table>
@@ -588,7 +592,9 @@ document.getElementById('fecha').value = today;
 
 
         function calcularRuido() {
-
+	
+		document.getElementById("btnImprimir")	  button.disabled = false;  // mostrar boton imprimir
+		
             document.getElementById("resultadolmon").innerText = "";
             document.getElementById("resultadolmoff").innerText = "";
             document.getElementById("calculoruido").innerText = "";
@@ -686,7 +692,19 @@ document.getElementById('fecha').value = today;
             }
         }
 
+	    
+	    
+	    
 
+     
+
+	    
+	    
+	    
+	    
+	    
+	    
+	    
         function obtenerDelta(delta) {
 
             var tablaDelta = [
