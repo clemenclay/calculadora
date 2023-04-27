@@ -768,7 +768,23 @@ document.getElementById('fecha').value = today;
 	    
 	    
 	    
-let input = document.querySelector("#imprir");
+
+	    
+	    
+	    
+	    
+	    
+	    
+    </script>
+
+	
+	
+	
+<input class="input" type="text" placeholder="fill me">
+<button id="imprimir" onclick="window.print();return false;"  type="button" class="btn btn-lg btn-default">Imprimir PDF</button>
+</body>
+<script>
+let input = document.querySelector(".input");
 let button = document.querySelector(".button");
 button.disabled = true;
 input.addEventListener("change", stateHandle);
@@ -780,15 +796,14 @@ function stateHandle() {
         button.disabled = false;
     }
 }
-	    
-	    
-	    
-	    
-	    
-	    
-    </script>
+</script>
 	
-	<button id="imprimir" onclick="window.print();return false;"  type="button" class="btn btn-lg btn-default">Imprimir PDF</button>
+	
+	
+	
+	
+	
+	
 	
 	
 </body>
