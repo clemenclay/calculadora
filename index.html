@@ -779,26 +779,27 @@ document.getElementById('fecha').value = today;
 
 	
 	
-	
-<input class="input" type="text" placeholder="fill me">
-<button id="imprimir" onclick="window.print();return false;"  type="button" class="btn btn-lg btn-default">Imprimir PDF</button>
-</body>
-<script>
-let input = document.querySelector(".input");
-let button = document.querySelector(".button");
-button.disabled = true;
-input.addEventListener("change", stateHandle);
+<input id="myText" type="text" onkeyup="stoppedTyping()">
+<input type="button" value="Click to begin!" id="start_button" onclick="verify()" disabled/> 
 
-function stateHandle() {
-    if(document.querySelector(".input").value === "") {
-        button.disabled = true;
-    } else {
-        button.disabled = false;
+<script type="text/javascript">
+    function stoppedTyping(){
+        if(this.value.length > 0) { 
+            document.getElementById('start_button').disabled = false; 
+        } else { 
+            document.getElementById('start_button').disabled = true;
+        }
     }
-}
+    function verify(){
+        if myText is empty{
+            alert "Put some text in there!"
+            return
+        }
+        else{
+            do button functionality
+        }
+    }
 </script>
-	
-	
 	
 	
 	
