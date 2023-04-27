@@ -256,6 +256,9 @@
         </tr>
     </table>
 
+	
+	<button onclick="window.print();return false;" type="button" class="btn btn-info btn-primary">Imprimir Resultado en PDF</button>
+	
     <script>
 
 	
@@ -778,28 +781,7 @@ document.getElementById('fecha').value = today;
     </script>
 
 	
-	
-<input id="myText" type="text" onkeyup="stoppedTyping()">
-<input type="button" value="Click to begin!" id="start_button" onclick="verify()" disabled/> 
 
-<script type="text/javascript">
-    function stoppedTyping(){
-        if(this.value.length > 0) { 
-            document.getElementById('start_button').disabled = false; 
-        } else { 
-            document.getElementById('start_button').disabled = true;
-        }
-    }
-    function verify(){
-        if myText is empty{
-            alert "Put some text in there!"
-            return
-        }
-        else{
-            do button functionality
-        }
-    }
-</script>
 	
 	
 	
