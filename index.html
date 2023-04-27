@@ -762,9 +762,33 @@ document.getElementById('fecha').value = today;
 
 
 
+	    
+	    
+	    
+	    
+	    
+	    
+let input = document.querySelector("#imprir");
+let button = document.querySelector(".button");
+button.disabled = true;
+input.addEventListener("change", stateHandle);
+
+function stateHandle() {
+    if(document.querySelector(".input").value === "") {
+        button.disabled = true;
+    } else {
+        button.disabled = false;
+    }
+}
+	    
+	    
+	    
+	    
+	    
+	    
     </script>
 	
-	<button onclick="window.print();return false;"  type="button" class="btn btn-lg btn-default">Imprimir PDF</button>
+	<button id="imprimir" onclick="window.print();return false;"  type="button" class="btn btn-lg btn-default">Imprimir PDF</button>
 	
 	
 </body>
