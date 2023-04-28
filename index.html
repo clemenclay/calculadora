@@ -287,7 +287,7 @@
             <td></td>
 		
 		<td>
-		    <button onclick="window.print();return false;" type="button" class="btn btn-lg btn-default" >Imprimir Resultado en PDF</button>
+		    <button onclick="cambiarNombrePagina();window.print();return false;" type="button" class="btn btn-lg btn-default" >Imprimir Resultado en PDF</button>
 		</td>
         </tr>
 	    
@@ -299,6 +299,7 @@
     <script>
 
 	
+	    
 var date = new Date();
 
 var day = date.getDate();
@@ -313,6 +314,18 @@ var today = year + "-" + month + "-" + day;
 document.getElementById('fecha').value = today;
 	
 
+	    
+	    
+	    
+	    
+	 function cambiarNombrePagina() {
+            newPageTitle = Date();
+            document.title = newPageTitle;
+        }
+	    
+	    
+	    
+	    
 	    
 	    
         let es_domingo;
