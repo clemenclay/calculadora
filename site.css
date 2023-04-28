@@ -1,3 +1,33 @@
+/* Mejorar impresion */
+
+@media print { 
+button { 
+  display: none!important;
+ } 
+  body { 
+  zoom: 90% !important;
+ } 
+
+  
+  select:disabled {
+    color: #111;
+    opacity: 1;
+    background: white;
+    border: none;
+}
+
+  input:disabled {
+    color: #111;
+    opacity: 1;
+    background: white;
+    border: none;
+}
+  
+}
+
+
+
+
 .btn {
     display: inline-block;
     margin-bottom: 0;
