@@ -185,7 +185,7 @@
             <td><label id="lmplbld">LMP: </label><br><label id="lmplblm7d">
                 </label></td>
             <td>
-                <label id="lmplbl"></label><br><label id="lmplblm7v"></label>
+                <label id="lmplbl" class="hide"></label><br><label id="lmplblm7v"></label>
             </td>
         </tr>
 
@@ -311,6 +311,13 @@ jQuery(document).ready(function(){
       cancel: 'Cancelar'
     });
   });
+
+	
+// Funcion mostrar LPM al calcular
+$('#calcularRuido').on('click', function(){
+    $('#lmplbl').removeClass('hide');
+});
+	
 
 
 </script>
