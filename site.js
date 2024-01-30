@@ -515,10 +515,8 @@ document.getElementById('fecha').value = today;
         }
 
         const feriados = [
-            new Date('2023-05-01'), // D�a del Trabajador
-            new Date('2023-06-20'), // Paso a la Inmortalidad del General Manuel Belgrano
-            new Date('2023-07-09'), // D�a de la Independencia
-            new Date('2023-04-18'), // D�a de la Independencia
-            // ...
+	    new Date('2024-01-12'), // D�a del Trabajador
+            new Date('2024-01-13'), // D�a del Trabajador
+
         ];
 
