@@ -515,8 +515,8 @@ document.getElementById('fecha').value = today;
         }
 
         const feriados = [
-	    new Date('2024-01-12'), // D�a del Trabajador
-            new Date('2024-01-13'), // D�a del Trabajador
+	    new Date('2024-01-12'), // Feriado Carnaval
+            new Date('2024-01-13'), // Feriado Carnaval
 
         ];
 
