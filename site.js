@@ -514,38 +514,26 @@ document.getElementById('fecha').value = today;
 
         }
 
-        const feriados = [
-		
-	    new Date('2024-02-12'), // Carnaval
-	    new Date('2024-02-13'), // Carnaval
-	    new Date('2024-03-24'), // Día Nacional de la Memoria por la Verdad y la Justicia
-	    new Date('2024-03-28'), // Jueves Santo
-	    new Date('2024-03-29'), // Viernes Santo
-	    new Date('2024-04-01'), // Feriado con fines turísticos
-	    new Date('2024-04-02'), // Día del Veterano y de los Caídos en la Guerra de Malvinas
-	    new Date('2024-04-23'), // Primer día de la Pascua Judía
-	    new Date('2024-04-24'), // Segundo día de la Pascua Judía
-	    new Date('2024-04-29'), // Tercer día de la Pascua Judía
-	    new Date('2024-04-30'), // Cuarto día de la Pascua Judía
-	    new Date('2024-05-01'), // Fiesta de la Ruptura del Ayuno del Sagrado Mes de Ramadán
-	    new Date('2024-05-24'), // Día de acción por la tolerancia y el respeto entre los pueblos
-	    new Date('2024-05-01'), // Día del Trabajador
-	    new Date('2024-05-25'), // Día de la Revolución de Mayo
-	    new Date('2024-06-17'), // Paso a la Inmortalidad del Gral. Don Martín Miguel de Güemes
-	    new Date('2024-06-20'), // Paso a la Inmortalidad del Gral. Manuel Belgrano
-	    new Date('2024-06-21'), // Feriado con fines turísticos
-	    new Date('2024-06-20'), // Fiesta del Sacrificio
-	    new Date('2024-07-07'), // Año Nuevo Islámico
-	    new Date('2024-07-09'), // Día de la Independencia
-	    new Date('2024-08-17'), // Paso a la Inmortalidad del Gral. José de San Martín
-	    new Date('2024-10-03'), // Año Nuevo Judío
-	    new Date('2024-10-04'), // Año Nuevo Judío
-	    new Date('2024-10-11'), // Feriado con fines turísticos
-	    new Date('2024-10-12'), // Día del Perdón
-	    new Date('2024-10-12'), // Día del Respeto a la Diversidad Cultural
-	    new Date('2024-11-18'), // Día de la Soberanía Nacional
-	    new Date('2024-12-08'), // Inmaculada Concepción de María
-	    new Date('2024-12-25')  // Navidad
+		const feriados = [
+		    new Date('2025-01-01'),
+		    new Date('2025-03-03'),
+		    new Date('2025-03-04'),
+		    new Date('2025-03-24'),
+		    new Date('2025-04-02'),
+		    new Date('2025-04-17'),
+		    new Date('2025-04-18'),
+		    new Date('2025-05-01'),
+		    new Date('2025-05-02'),  // puente
+		    new Date('2025-05-25'),
+		    new Date('2025-06-16'),  // trasladado de Güemes
+		    new Date('2025-06-20'),
+		    new Date('2025-07-09'),
+		    new Date('2025-08-15'),  // trasladado de San Martín
+		    new Date('2025-10-12'),  // Respeto a la Diversidad Cultural (cae domingo pero se incluye)
+		    new Date('2025-11-21'),  // puente
+		    new Date('2025-11-24'),
+		    new Date('2025-12-08'),
+		    new Date('2025-12-25')
+		];
 
-        ];
 
